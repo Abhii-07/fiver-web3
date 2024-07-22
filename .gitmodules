@@ -1,0 +1,6 @@
+[submodule "user-frontend"]
+	path = user-frontend
+	url = https://github.com/Abhii-07/user-frontend
+[submodule "worker-frontend"]
+	path = worker-frontend
+	url = https://github.com/Abhii-07/worker-frontend
