@@ -23,8 +23,8 @@ const router = (0, express_1.Router)();
 const prismaClient = new client_1.PrismaClient();
 const s3Client = new client_s3_1.S3Client({
     credentials: {
-        accessKeyId: "AKIAXVW2DJKBVO5LLOVD",
-        secretAccessKey: "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",
+        accessKeyId: "",
+        secretAccessKey: "",
     },
     region: "ap-south-1",
 });
