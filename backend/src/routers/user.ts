@@ -16,11 +16,18 @@ const prismaClient = new PrismaClient();
 
 const s3Client = new S3Client({
   credentials: {
-    accessKeyId: "AKIAXVW2DJKBVO5LLOVD",
-    secretAccessKey: "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",
+    accessKeyId: "",
+    secretAccessKey: "",
   },
   region: "ap-south-1",
 });
+
+
+
+router.post("/task",authMiddleware,(req,res) => {
+
+});
+
 
 router.get("/presignedUrl", authMiddleware, async (req, res) => {
     // @ts-ignore
