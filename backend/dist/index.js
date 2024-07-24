@@ -10,6 +10,7 @@ const express = require('express');
 const app = express();
 const port = 3001;
 exports.JWT_SECRET = "abhi123";
+app.use(express.json());
 app.use("/v1/user", user_1.default);
 app.use("/v1/worker", worker_1.default);
 app.listen(port);
